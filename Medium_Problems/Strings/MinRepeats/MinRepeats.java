@@ -20,7 +20,7 @@ public class MinRepeats {
                 return length;
             } else if (j > s3.length()) {
                 length++;
-                s3 += s3;
+                s3 += B;
                 i--;
                 j--;
             }
